@@ -33,7 +33,7 @@ def pipeline():
     plt.ylabel("y")
     plt.legend(["actual", "predicted"])
 
-    plt.show()
+    plt.savefig("best-fit.jpg")
 
 
 if __name__ == "__main__":
