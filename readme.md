@@ -14,7 +14,7 @@ This repository contains the following files:
 - `natural_selector.py`: This file contains the implementation of the Natural Selector for the Genetic Algorithm.
 - `main.py`: This file contains the pipeline function for running the code.
 
-To train the Linear Regression model, run the following command:
+To train the Linear Regression model, run the following command on your terminal in the root of this project:
 
 ```shell
 python main.py
