@@ -16,8 +16,8 @@ This repository contains the following files:
 
 To train the Linear Regression model, run the following command:
 
-```zsh
-    python main.py
+```shell
+python main.py
 ```
 
 
