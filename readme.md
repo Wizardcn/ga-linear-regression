@@ -35,7 +35,9 @@ The pipeline function trains the Linear Regression model using Genetic Algorithm
 
 ## Result
 Here is an example of the best-fit line obtained by the Genetic Algorithm for the given dataset:
+
 ![Best-fit line](./best-fit.jpg)
+
 The blue dots represent the original data points, and the red line represents the best-fit line obtained by the Genetic Algorithm. As we can see, the Genetic Algorithm was able to find a line that closely fits the data points, even in the presence of Gaussian noise.
 
 ## Credits
