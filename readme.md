@@ -1,3 +1,11 @@
+## Train Linear Regression using Genetic Algorithm
+
+This project was a fun and engaging way for me to take a break from studying during my final examination period. As someone who is interested in machine learning, I wanted to explore the application of Genetic Algorithms for optimizing Linear Regression models.
+
+By working on this project, I was able to apply my knowledge of machine learning and optimization techniques in a practical setting. It was exciting to see how the Genetic Algorithm was able to converge to an optimal solution and find the best-fit line for the given dataset.
+
+I hope that this project can inspire others to explore the intersection of machine learning and optimization, and provide a fun and educational experience for anyone interested in this topic.
+
 ## Files
 
 This repository contains the following files:
@@ -26,8 +34,9 @@ y = 1.323 * X + 123.535 + noise
 The pipeline function trains the Linear Regression model using Genetic Algorithm and generates a plot of the best-fit line obtained by the Genetic Algorithm.
 
 ## Result
-The following graph shows the original data points and the best-fit line obtained by the Genetic Algorithm:
+Here is an example of the best-fit line obtained by the Genetic Algorithm for the given dataset:
 ![Best-fit line](./best-fit.jpg)
+The blue dots represent the original data points, and the red line represents the best-fit line obtained by the Genetic Algorithm. As we can see, the Genetic Algorithm was able to find a line that closely fits the data points, even in the presence of Gaussian noise.
 
 ## Credits
 This project was inspired by the following resources:
