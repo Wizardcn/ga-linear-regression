@@ -20,7 +20,7 @@ To train the Linear Regression model, run the following command on your terminal
 python main.py
 ```
 
-This will generate the dataset using the following code:
+This will run the pipeline function that is to generate the dataset using the following code:
 
 ```python
 import numpy as np
@@ -29,7 +29,7 @@ X = np.arange(100)
 noise = np.random.normal(0, 9, size=(X.shape[0],))
 y = 1.323 * X + 123.535 + noise
 ```
-And  and run the pipeline function using the following code:
+And and run the `natural_selector` function using the following code:
 
 ```python
 solution = natural_selector(
