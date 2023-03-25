@@ -20,8 +20,7 @@ To train the Linear Regression model, run the following command on your terminal
 python main.py
 ```
 
-
-This will run the pipeline function and generate the dataset using the following code:
+This will generate the dataset using the following code:
 
 ```python
 import numpy as np
@@ -29,6 +28,19 @@ import numpy as np
 X = np.arange(100)
 noise = np.random.normal(0, 9, size=(X.shape[0],))
 y = 1.323 * X + 123.535 + noise
+```
+And  and run the pipeline function using the following code:
+
+```python
+solution = natural_selector(
+    X.reshape(X.shape[0], 1),
+    y,
+    population_size=5000,
+    num_generations=1000,
+    length_of_convergent_list=10,
+    mutation_sigma=500,
+    fitness_goal=50
+)
 ```
 
 The pipeline function trains the Linear Regression model using Genetic Algorithm and generates a plot of the best-fit line obtained by the Genetic Algorithm.
