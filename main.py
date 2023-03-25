@@ -8,7 +8,7 @@ def pipeline():
     # Generate random dataset
     X = np.arange(100)
     noise = np.random.normal(0, 9, size=(X.shape[0],))
-    y = 1.9 * X + 10 + noise
+    y = 1.323 * X + 123.535 + noise
 
     # train linear regression model using genetic algorithm
     solution = natural_selector(
